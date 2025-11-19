@@ -6,7 +6,7 @@ function MenuBar() {
   };
   return (
     <div className="  text-white md:hidden ">
-      <div className=" relative ml-76 mt-5 duration-500 ease-linear">
+      <div className=" relative ml-76 mt-5">
         <FaXmark size={30} onClick={closebar} />
       </div>
       <div className="absolute top-20 left-20  text-3xl">
