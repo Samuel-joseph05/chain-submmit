@@ -1,6 +1,7 @@
 import { IoIosArrowRoundBack } from "react-icons/io";
 
 function AboutPage() {
+  
   const back = () => {
     window.history.back();
   };
