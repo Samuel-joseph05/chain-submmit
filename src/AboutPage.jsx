@@ -1,9 +1,11 @@
 import { IoIosArrowRoundBack } from "react-icons/io";
+import { useNavigate } from "react-router-dom";
 
 function AboutPage() {
-  
-  const back = () => {
-    window.history.back();
+    const navigate = useNavigate();
+     
+    const back = () => {
+    navigate("/");
   };
 
   return (
