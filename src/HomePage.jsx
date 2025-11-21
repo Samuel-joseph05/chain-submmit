@@ -6,9 +6,12 @@ function HomePage() {
   const bar = () => {
     navigate("/menubar");
   };
-  const about= () =>{
-     navigate("/about");
-  }
+  const about = () => {
+    navigate("/about");
+  };
+  const speakers = () => {
+    navigate("/speakers");
+  };
 
   return (
     <div className="pt-5 ">
@@ -19,10 +22,16 @@ function HomePage() {
         </div>
 
         <div className="md:flex top-0 right-0  absolute hidden ">
-          <p className="md:px-5  py-1 cursor-pointer md: hover:bg-gray-400 rounded-2xl   " onClick={about}>
+          <p
+            className="md:px-5  py-1 cursor-pointer md: hover:bg-gray-400 rounded-2xl   "
+            onClick={about}
+          >
             About
           </p>
-          <p className="md:px-5  py-1 cursor-pointer hover:bg-gray-400 rounded-2xl">
+          <p
+            className="md:px-5  py-1 cursor-pointer hover:bg-gray-400 rounded-2xl"
+            onClick={speakers}
+          >
             Speakers
           </p>
           <p className="md:px-5  py-1 cursor-pointer hover:bg-gray-400 rounded-2xl">
@@ -56,27 +65,34 @@ function HomePage() {
           <p>Sponsors</p>
         </div>
         <div className="flex justify-center md:gap-7 text-[#5de2e0]  md:mt-12 text-2xl font-bold ">
-          
-            <p className="bg-[#1f1e23] w-20 h-20 rounded-lg md:pt-2  hover:shadow-lg shadow-blue-400">
-              372 
-              <br />
-              <span className="text-gray-300 text-sm font-light md:pt-5">Days</span>
-            </p>
-          
+          <p className="bg-[#1f1e23] w-20 h-20 rounded-lg md:pt-2  hover:shadow-lg shadow-blue-400">
+            372
+            <br />
+            <span className="text-gray-300 text-sm font-light md:pt-5">
+              Days
+            </span>
+          </p>
+
           <p className="bg-[#1f1e23] w-20 h-20 rounded-lg md:pt-2  hover:shadow-lg shadow-blue-400">
             09
-               <br />
-              <span className="text-gray-300 text-sm font-light md:pt-5">Hours</span>
+            <br />
+            <span className="text-gray-300 text-sm font-light md:pt-5">
+              Hours
+            </span>
           </p>
           <p className="bg-[#1f1e23] w-20 h-20 rounded-lg md:pt-2  hover:shadow-lg shadow-blue-400">
             32
-              <br />
-              <span className="text-gray-300 text-sm font-light md:pt-5">Minutes</span>
+            <br />
+            <span className="text-gray-300 text-sm font-light md:pt-5">
+              Minutes
+            </span>
           </p>
           <p className="bg-[#1f1e23] w-20 h-20 rounded-lg md:pt-2  hover:shadow-lg shadow-blue-400">
             00
-              <br />
-              <span className="text-gray-300 text-sm font-light md:pt-5">Seconds</span>
+            <br />
+            <span className="text-gray-300 text-sm font-light md:pt-5">
+              Seconds
+            </span>
           </p>
         </div>
       </div>
