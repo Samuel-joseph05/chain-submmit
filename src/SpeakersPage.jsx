@@ -1,28 +1,34 @@
 import { IoIosArrowRoundBack } from "react-icons/io";
+import { useNavigate } from "react-router-dom";
 
 function SpeakersPage() {
-    const back = () => {
-    window.history.back();
+  const navigate = useNavigate();
+
+  const back = () => {
+    navigate("/");
   };
 
-  
   return (
     <div>
-             
       <div className="relative top-0">
-              <button
-              className=" bg-linear-to-r from-[#50d8fe] to-[#6764f3]  rounded-lg  mt-4  ml-4 px-1 py-0 absolute cursor-pointer"
-              onClick={back} >
-              <IoIosArrowRoundBack size={35} strokeWidth={5} className="text-black"/>
-            </button>
-            </div>
+        <button
+          className=" bg-linear-to-r from-[#50d8fe] to-[#6764f3]  rounded-lg  mt-4  ml-4 px-1 py-0 absolute cursor-pointer"
+          onClick={back}
+        >
+          <IoIosArrowRoundBack
+            size={35}
+            strokeWidth={5}
+            className="text-black"
+          />
+        </button>
+      </div>
       <div className="text-center pt-20 ">
         <h1 className="text-[#62b4f6] text-2xl md:text-4xl font-bold ">
           Featured Speakers
         </h1>
       </div>
       <div>
-        <div className="grid md:grid-cols-3 grid-cols-1 gap-10 md:gap-10 place-items-center mt-10 md:mx-60  ">
+        <div className="grid md:grid-cols-3 grid-cols-1 gap-10 md:gap-10 place-items-center mt-10 mb-20 md:mx-60  ">
           <div className="bg-[#17161b] w-67 h-67  p-5 rounded-2xl place-items-center">
             <div className=" bg-linear-to-r from-[#5b7df6] to-[#c23ffb] w-20 h-20 rounded-full text-center p-6 font-medium place-items-center md:text-2xl ">
               DR
@@ -88,7 +94,7 @@ function SpeakersPage() {
             </div>
           </div>
 
-          <div className="bg-[#17161b] w-67 h-67   p-5 mb-20 rounded-2xl place-items-center mb:5">
+          <div className="bg-[#17161b] w-67 h-67   p-5  rounded-2xl place-items-center mb:5">
             <div className=" bg-linear-to-r from-[#5b7df6] to-[#c23ffb] w-20 h-20 rounded-full text-center p-6 font-medium place-items-center md:text-2xl">
               JW
             </div>
