@@ -22,7 +22,7 @@ function SpeakersPage() {
         </h1>
       </div>
       <div>
-        <div className="grid md:grid-cols-3 grid-cols-1 gap-10 md:gap-10 place-items-center mt-10 md:mx-60 ">
+        <div className="grid md:grid-cols-3 grid-cols-1 gap-10 md:gap-10 place-items-center mt-10 md:mx-60  ">
           <div className="bg-[#17161b] w-67 h-67  p-5 rounded-2xl place-items-center">
             <div className=" bg-linear-to-r from-[#5b7df6] to-[#c23ffb] w-20 h-20 rounded-full text-center p-6 font-medium place-items-center md:text-2xl ">
               DR
@@ -88,7 +88,7 @@ function SpeakersPage() {
             </div>
           </div>
 
-          <div className="bg-[#17161b] w-67 h-67   p-5 rounded-2xl place-items-center">
+          <div className="bg-[#17161b] w-67 h-67   p-5 mb-20 rounded-2xl place-items-center mb:5">
             <div className=" bg-linear-to-r from-[#5b7df6] to-[#c23ffb] w-20 h-20 rounded-full text-center p-6 font-medium place-items-center md:text-2xl">
               JW
             </div>
