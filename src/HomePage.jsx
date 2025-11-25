@@ -1,8 +1,13 @@
 import { RiMenu3Fill } from "react-icons/ri";
 import { useNavigate } from "react-router-dom";
+
+
+
 function HomePage() {
+ 
   const navigate = useNavigate();
 
+ 
   const bar = () => {
     navigate("/menubar");
   };
@@ -12,6 +17,13 @@ function HomePage() {
   const speakers = () => {
     navigate("/speakers");
   };
+  const  Schedule = () => {
+    navigate("/schedule");
+  };
+const Viewschedule =() =>{
+  navigate("/schedule");
+}
+
 
   return (
     <div className="pt-5 ">
@@ -34,7 +46,7 @@ function HomePage() {
           >
             Speakers
           </p>
-          <p className="md:px-5  py-1 cursor-pointer hover:bg-gray-400 rounded-2xl">
+          <p className="md:px-5  py-1 cursor-pointer hover:bg-gray-400 rounded-2xl" onClick={Schedule}>
             Schedule
           </p>
           <p className="md:px-5  py-1 cursor-pointer hover:bg-gray-400 rounded-2xl">
@@ -96,12 +108,12 @@ function HomePage() {
           </p>
         </div>
       </div>
-      <div className=" flex md:ml-150 justify-center mt-20 gap-20 md:gap-30">
+      <div className=" flex justify-center mt-20 gap-20 md:gap-50">
         <button className="px-3 py-2  bg-linear-to-r from-[#50d8fe] to-[#6764f3]  rounded-3xl text-sm">
           Learn More{" "}
         </button>
 
-        <button className="border-2 border-solid border-[#3a9994] rounded-3xl text-white  text-sm md:px-4 px-2 py-2  hover:shadow shadow-blue-400">
+        <button className="border-2 border-solid border-[#3a9994] rounded-3xl text-white  text-sm md:px-4 px-3 py-2  hover:shadow shadow-blue-400" onClick={Viewschedule}>
           View Schedule
         </button>
       </div>
