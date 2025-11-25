@@ -16,7 +16,7 @@ function MenuBar() {
   const schedule = () => {
     navigate("/schedule");
   };
-   const sponsors = () => {
+  const sponsors = () => {
     navigate("/sponsors");
   };
 
