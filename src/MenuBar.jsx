@@ -22,23 +22,23 @@ function MenuBar() {
 
   return (
     <div className="  text-white md:hidden ">
-      <div className=" relative ml-85 sm:ml-100 mt-5">
+      <div className=" relative ml-85 sm:ml-180  mt-5">
         <FaXmark size={30} onClick={closebar} />
       </div>
-      <div className="absolute top-20 right-40  text-3xl">
-        <p className="mb-2 " onClick={about}>
+      <div className="absolute top-20 right-40 sm:right-70 sm:top-30 text-3xl">
+        <p className="mb-4  sm:" onClick={about}>
           {" "}
           About
         </p>
-        <p className="mb-2 " onClick={speakers}>
+        <p className="mb-4 " onClick={speakers}>
           {" "}
           Speakers
         </p>
-        <p className="mb-2 " onClick={schedule}>
+        <p className="mb-4 " onClick={schedule}>
           {" "}
           Schedule
         </p>
-        <p className="mb-2 " onClick={sponsors}>
+        <p className="mb-4 " onClick={sponsors}>
           {" "}
           Sponsors
         </p>
