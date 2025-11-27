@@ -23,6 +23,9 @@ function HomePage() {
 const Viewschedule =() =>{
   navigate("/schedule");
 }
+const  Sponsors =() =>{
+  navigate("/sponsors")
+}
 
 
   return (
@@ -49,7 +52,7 @@ const Viewschedule =() =>{
           <p className="md:px-5  py-1 cursor-pointer hover:bg-gray-400 rounded-2xl" onClick={Schedule}>
             Schedule
           </p>
-          <p className="md:px-5  py-1 cursor-pointer hover:bg-gray-400 rounded-2xl">
+          <p className="md:px-5  py-1 cursor-pointer hover:bg-gray-400 rounded-2xl" onClick={ Sponsors}>
             Sponsors
           </p>
           <p className="md:mr-18  py-1 md:px-5 md:cursor-pointer hover:bg-gray-400 rounded-2xl">
