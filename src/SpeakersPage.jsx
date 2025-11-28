@@ -22,7 +22,7 @@ function SpeakersPage() {
           />
         </button>
       </div>
-      <div className="text-center pt-20 md:p-10 ">
+      <div className="text-center pt-20 md:p-10 select-none ">
         <h1 className="text-[#62b4f6] text-2xl md:text-4xl font-bold ">
           Featured Speakers
         </h1>

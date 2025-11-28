@@ -37,7 +37,7 @@ function Schedule() {
   };
 
   return (
-    <div>
+    <div className="select-none">
       <button
         className=" bg-linear-to-r from-[#50d8fe] to-[#6764f3]  rounded-2xl text-sm mt-3 mb-5 ml-5 md:px-5 px-2   cursor-pointer"
         onClick={back}

@@ -16,7 +16,7 @@ function Sponsors() {
       >
         <IoIosArrowRoundBack size={35} strokeWidth={5} className="text-black" />
       </button>
-      <div className="text-center pt-5 ">
+      <div className="text-center pt-5 select-none ">
         <h1 className="text-[#62b4f6] text-2xl md:text-4xl">
           Our <span className="text-[#7757d1]">Sponsors</span>
         </h1>
