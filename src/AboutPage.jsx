@@ -26,7 +26,7 @@ function AboutPage() {
         </h1>
       </div>{" "}
       <div className="flex ml-5 md:ml-20 ">
-        <div className="md:h-110 md:w-1.5 h-190 w-2.5 bg-linear-to-r from-blue-500 to-purple-600 rounded-2xl"></div>
+        <div className="md:h-110 md:w-1.5  w-2.5 bg-linear-to-r from-blue-500 to-purple-600 rounded-2xl"></div>
         <div className="text-white p-10 pt-4 text-lg">
           <p>
             Join the world's leading experts in Al and blockchain technology for{" "}

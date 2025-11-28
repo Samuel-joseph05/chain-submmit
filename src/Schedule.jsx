@@ -63,18 +63,21 @@ function Schedule() {
           </button>
         ))}
       </div>
-
-      <div className=" flex md:gap-20  md:w-170 w-80  md:ml-100 ml-3  mt-20   md:p-5   py-2 px-4 bg-[#1a1a1e] rounded-2xl  text-sm">
-        <p className="border-2 border-solid border-[#3a9994]  bg-[#223136] rounded-lg text-white  text-sm md:px-4 px-3 py-2   hover:shadow shadow-blue-400">
+<div className=" flex justify-center mt-20  ">
+  <div className=" flex justify-center items-center gap-5  md:gap-20  md:w-170 w-90    md:p-5  px-5 py-2   bg-[#1a1a1e] rounded-2xl  text-sm">
+        <p className=" border-2 border-solid border-[#3a9994]  bg-[#223136] rounded-lg text-white  text-sm md:text-lg md:px-4 px-3 py-2   hover:shadow shadow-blue-400">
           {currentDay.time}
         </p>
-        <p className="text-gray-300 md:text-lg text-center text-sm ">
+        <p className="text-gray-300 md:text-lg text-center text-sm  ">
           {" "}
           {currentDay.content}
           {}
         </p>
-        <p className="text-[#62b4f6]">{currentDay.subject}</p>
+        <p className="text-[#62b4f6] md:text-lg ">{currentDay.subject}</p>
       </div>
+
+</div>
+      
     </div>
   );
 }
