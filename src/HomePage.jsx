@@ -1,6 +1,6 @@
 import { RiMenu3Fill } from "react-icons/ri";
 import { useNavigate } from "react-router-dom";
-import Register from "./Register";
+
 
 
 
