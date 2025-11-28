@@ -9,14 +9,14 @@ function Sponsors() {
   };
 
   return (
-    <div>
+    <div className=" select-none">
       <button
         className=" bg-linear-to-r from-[#50d8fe] to-[#6764f3]  rounded-2xl text-sm mt-3 mb-5 ml-5 md:px-5 px-2   cursor-pointer"
         onClick={back}
       >
         <IoIosArrowRoundBack size={35} strokeWidth={5} className="text-black" />
       </button>
-      <div className="text-center pt-5 select-none ">
+      <div className="text-center pt-5 ">
         <h1 className="text-[#62b4f6] text-2xl md:text-4xl">
           Our <span className="text-[#7757d1]">Sponsors</span>
         </h1>

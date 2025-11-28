@@ -9,7 +9,7 @@ function SpeakersPage() {
   };
 
   return (
-    <div>
+    <div className=" select-none">
       <div className="relative top-0">
         <button
           className=" bg-linear-to-r from-[#50d8fe] to-[#6764f3]  rounded-lg  mt-4  ml-4 px-1 py-0 absolute cursor-pointer"
@@ -22,7 +22,7 @@ function SpeakersPage() {
           />
         </button>
       </div>
-      <div className="text-center pt-20 md:p-10 select-none ">
+      <div className="text-center pt-20 md:p-10 ">
         <h1 className="text-[#62b4f6] text-2xl md:text-4xl font-bold ">
           Featured Speakers
         </h1>

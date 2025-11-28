@@ -9,9 +9,9 @@ function AboutPage() {
   };
 
   return (
-    <div>
+    <div className=" select-none">
    
-      <div className="relative select-none">
+      <div className="relative">
               <button
               className=" bg-linear-to-r from-[#50d8fe] to-[#6764f3]  rounded-2xl text-sm mt-5 mb-5 ml-5 px-5 absolute cursor-pointer"
               onClick={back} >
