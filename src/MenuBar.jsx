@@ -19,6 +19,9 @@ function MenuBar() {
   const sponsors = () => {
     navigate("/sponsors");
   };
+  const Register =() =>{
+    navigate("/register")
+  }
 
   return (
     <div className="  text-white md:hidden ">
@@ -26,23 +29,23 @@ function MenuBar() {
         <FaXmark size={30} onClick={closebar} />
       </div>
       <div className="absolute top-20 right-40 sm:right-70 sm:top-30 text-3xl">
-        <p className="mb-4  sm:" onClick={about}>
+        <p className="mb-4  select-none" onClick={about}>
           {" "}
           About
         </p>
-        <p className="mb-4 " onClick={speakers}>
+        <p className="mb-4 select-none" onClick={speakers}>
           {" "}
           Speakers
         </p>
-        <p className="mb-4 " onClick={schedule}>
+        <p className="mb-4 select-none" onClick={schedule}>
           {" "}
           Schedule
         </p>
-        <p className="mb-4 " onClick={sponsors}>
+        <p className="mb-4 select-none" onClick={sponsors}>
           {" "}
           Sponsors
         </p>
-        <p className=""> Register</p>
+        <p className="select-none" onClick={Register}> Register</p>
       </div>
     </div>
   );

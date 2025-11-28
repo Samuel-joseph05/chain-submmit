@@ -6,7 +6,7 @@ import AboutPage from "./AboutPage";
 import SpeakersPage from "./SpeakersPage";
 import Schedule from "./Schedule";
 import Sponsors from "./Sponsors";
-
+import Register from "./Register";
 
 function App() {
   return (
@@ -17,8 +17,8 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/speakers" element={<SpeakersPage />} />
         <Route path="/schedule" element={<Schedule />} />
-         <Route path="/sponsors" element={<Sponsors/>} />
-        
+        <Route path="/sponsors" element={<Sponsors />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
     </Router>
   );

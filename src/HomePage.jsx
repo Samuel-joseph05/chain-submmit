@@ -1,5 +1,6 @@
 import { RiMenu3Fill } from "react-icons/ri";
 import { useNavigate } from "react-router-dom";
+import Register from "./Register";
 
 
 
@@ -27,6 +28,9 @@ const  Sponsors =() =>{
   navigate("/sponsors")
 }
 
+const Register =() =>{
+  navigate("/register")
+}
 
   return (
     <div className="pt-5 ">
@@ -55,7 +59,7 @@ const  Sponsors =() =>{
           <p className="md:px-5  py-1 cursor-pointer hover:bg-gray-400 rounded-2xl" onClick={ Sponsors}>
             Sponsors
           </p>
-          <p className="md:mr-18  py-1 md:px-5 md:cursor-pointer hover:bg-gray-400 rounded-2xl">
+          <p className="md:mr-18  py-1 md:px-5 md:cursor-pointer hover:bg-gray-400 rounded-2xl" onClick={Register}>
             Register
           </p>
         </div>
