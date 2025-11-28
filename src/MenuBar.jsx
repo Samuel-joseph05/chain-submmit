@@ -28,24 +28,24 @@ function MenuBar() {
       <div className=" relative ml-85 sm:ml-180  mt-5">
         <FaXmark size={30} onClick={closebar} />
       </div>
-      <div className="absolute top-20 right-40 sm:right-70 sm:top-30 text-3xl">
-        <p className="mb-4  select-none" onClick={about}>
+      <div className="absolute top-20 right-40 sm:right-70 sm:top-30 text-3xl select-none">
+        <p className="mb-4 " onClick={about}>
           {" "}
           About
         </p>
-        <p className="mb-4 select-none" onClick={speakers}>
+        <p className="mb-4 " onClick={speakers}>
           {" "}
           Speakers
         </p>
-        <p className="mb-4 select-none" onClick={schedule}>
+        <p className="mb-4 " onClick={schedule}>
           {" "}
           Schedule
         </p>
-        <p className="mb-4 select-none" onClick={sponsors}>
+        <p className="mb-4" onClick={sponsors}>
           {" "}
           Sponsors
         </p>
-        <p className="select-none" onClick={Register}> Register</p>
+        <p className="" onClick={Register}> Register</p>
       </div>
     </div>
   );
