@@ -33,7 +33,7 @@ const Register =() =>{
 }
 
   return (
-    <div className="pt-5 ">
+    <div className="pt-5 select-none ">
       <div className="relative text-white">
         <h1 className="md:text-2xl md:pl-10 text-lg ml-4 ">Chain Submmit</h1>
         <div className="absolute top-1 right-3  md:hidden " onClick={bar}>

@@ -44,7 +44,7 @@ function Schedule() {
       >
         <IoIosArrowRoundBack size={35} strokeWidth={5} className="text-black" />
       </button>
-      <h1 className="text-[#62b4f6] md:text-4xl text-lg text-center pt-2 font-bold ">
+      <h1 className="text-[#62b4f6] md:text-4xl text-2xl  text-center pt-2 font-medium ">
         Conference Schedule
       </h1>
 
