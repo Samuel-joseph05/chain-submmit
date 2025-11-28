@@ -24,7 +24,7 @@ function Register() {
       </div>
       <div className="flex  justify-center  relative mx-10  my-20">
         <div className="text-2xl border-2 border-solid border-[#3a9994] bg-[#252b37] shadow-lg shadow-[#3a9994] rounded-2xl ">
-          <div className="  pt-5 pb-10 px-3">
+          <div className=" select-none  pt-5 pb-10 px-3">
             <h1 className="text-[#3a9994] text-center font-medium text-3xl pb-10">
               Register
             </h1>
