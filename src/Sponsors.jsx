@@ -21,7 +21,7 @@ function Sponsors() {
           Our <span className="text-[#7757d1]">Sponsors</span>
         </h1>
       </div>
-      <div className="bg-[#121f27] w-auto h-245 md:h-165 mx-3.5 my-3  md:m-5 rounded-2xl ">
+      <div className="bg-[#121f27] w-auto h-245 md:h-165 mx-5 my-6  md:m-5 rounded-2xl ">
         <div>
           <h1 className="text-[#dde3e8] text-center  font-bold p-3 md:text-2xl mb-5">
             Platinum Partners
